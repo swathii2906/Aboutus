@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Swathi Koduganti</title>
+    <style>
+        /* Import Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        /* Full-page Background with Image & Light Blue Fallback */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed, #add8e6;
+            background-size: cover;
+            background-blend-mode: overlay;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Content Container */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            color: black;
+        }
+
+        /* Headings */
+        h2 {
+            color: #2c3e50;
+            font-size: 28px;
+        }
+        h3 {
+            color: #d35400;
+            font-size: 24px;
+        }
+
+        /* Paragraph & List Styling */
+        p, ul li {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        ul {
+            text-align: left;
+            padding: 0;
+        }
+        ul li {
+            padding-left: 25px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        ul li::before {
+            content: "✔";
+            color: #27ae60;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            font-size: 18px;
+        }
+
+        /* Contact Box */
+        .contact-box {
+            margin-top: 20px;
+            padding: 15px;
+            background: #2980b9;
+            color: white;
+            border-radius: 8px;
+            display: inline-block;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+            width: 90%;
+            max-width: 400px;
+        }
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .contact-box:hover {
+            background: #1c5985;
+        }
+
+        /* Contact Button */
+        .contact-btn {
+            display: block;
+            width: 90%;
+            max-width: 300px;
+            margin: 15px auto;
+            padding: 12px;
+            background: #27ae60;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+        .contact-btn:hover {
+            background: #1e8449;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+            .contact-box, .contact-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Main Content -->
+<div class="container">
+    <h2>About the Tutor</h2>
+    <h3>Swathi Koduganti</h3>
+    <p><strong>Experience:</strong> 15 years of teaching ICSE, CBSE, and IB students (Grades VII to XII)</p>
+    
+    <p>Swathi Koduganti is a highly experienced freelance tutor with over 15 years of expertise in both offline and online tutoring. She holds an MBA with a specialization in Finance, a Bachelor's degree in Computer Science, and a Postgraduate Diploma in Computer Science.</p>
+
+    <p>With a strong command of MS Office applications, she provides training in Basic and Advanced MS Word, MS Excel, and PowerPoint for students and corporate professionals. She is also a <strong>Certified MS Excel Trainer</strong>.</p>
+
+    <p>Swathi specializes in tutoring students in the following subjects:</p>
+
+    <ul>
+        <li><strong>Mathematics</strong> (Grades VII to XII)</li>
+        <li><strong>Science</strong> (Grades VII to X)</li>
+        <li><strong>Accounts</strong> (Grades XI & XII)</li>
+        <li><strong>Business Studies</strong> (Grades XI & XII)</li>
+        <li><strong>Applied Mathematics</strong> (Grades XI & XII)</li>
+        <li><strong>Business Mathematics</strong></li>
+        <li><strong>Basic & Advanced MS Office Applications</strong> (MS Word, MS Excel, and PowerPoint)</li>
+    </ul>
+
+    <p>She also has extensive experience in preparing students for competitive exams, including the <strong>SAT</strong>, helping both Indian and US students excel in their academic goals.</p>
+
+    <!-- Contact Information -->
+    <div class="contact-box">
+        📞 <strong>Swathi Koduganti</strong> <br>
+        ☎ <a href="tel:+919873719993">+91 9873719993</a> <br>
+        ✉ <a href="mailto:swathi.koduganti@gmail.com">swathi.koduganti@gmail.com</a>
+    </div>
+
+    <!-- Contact Buttons -->
+    <a href="tel:+919873719993" class="contact-btn">📞 Call Now</a>
+    <a href="mailto:swathi.koduganti@gmail.com" class="contact-btn">✉ Send Email</a>
+</div>
+
+</body>
+</html>
